@@ -9,4 +9,4 @@ The code uses padj < 0.05 as cutoff to define significant genes. Based on that, 
 
 #### Running Result
 This is a sample output we got from running the R script.
-<img width="900" height="1600" alt="volcano_Het_vs_WT_NC_Upregulated 2" src="https://github.com/user-attachments/assets/ad80283d-2852-4bc6-a9f7-f4ea460e8729" />
+<img width="800" height="1200" alt="volcano_Het_vs_WT_NC_Upregulated" src="https://github.com/user-attachments/assets/2dda4431-4cb3-4f47-a1b1-b6ba666180ed" />
