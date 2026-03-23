@@ -5,9 +5,11 @@ This is an RNA-seq data analysis R script, which takes the DEG (Differentially E
 The DEG list csv file named "DEG_list_Het_basal vs WT_basal.csv" compares Het (Heterozygous) and WT (Wild Type) mouse samples, whereas Het samples carry a knockout of genes involved in pulmonary functions. The data will not be provided, but the code can be used as sharing and learning.
 
 The format of the csv file:
-                symbol  log2FoldChange  lfcSE  stat  pvalue  padj  baseMean
-ENSMUSG0000001  x       x               x      x     x       x     x
-...
+
+|             | symbol | log2FoldChange | lfcSE | stat | pvalue | padj | baseMean |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | 
+| ENSMUSG0000001 | x     | x | x | x | x | x | x |
+| ...  |       |
 
 #### Functional Details
 The code uses padj < 0.05 as cutoff to define significant genes. Based on that, the code uses log2FoldChange > 0 as cutoff to define upregulated genes, and log2FoldChange < 0 as cutoff to define downregulated genes. The top 30 high padj valued genes' names will be displayed.
